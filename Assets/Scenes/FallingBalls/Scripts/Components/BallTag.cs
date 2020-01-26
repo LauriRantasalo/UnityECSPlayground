@@ -1,7 +1,5 @@
 ﻿using Unity.Entities;
 using Unity.Mathematics;
 
-public struct BallTag : IComponentData
-{
-    
-}
+// BallTag is an empty component that is used to track all balls more easily.
+public struct BallTag : IComponentData{ }
